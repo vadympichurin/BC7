@@ -1,0 +1,30 @@
+
+/*wrapper style*/
+.wrapper {
+    background-color: #ffffff;
+}
+
+/*navigate style*/
+.container-nav {
+    width: 900px;
+    margin: 0 auto 100px;
+    padding-top: 75px;
+}
+
+.navigation {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #626262;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nav_item {
+    display: inline-block;
+    width: 105px;
+    margin-right: 100px;
+}
+
+.nav_item:last-child {
+    margin-right: 0;
+}
