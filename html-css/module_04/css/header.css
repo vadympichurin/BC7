@@ -1,0 +1,39 @@
+
+
+.wrapper {
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1108px;
+    margin: auto;
+}
+
+.header {}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #555252;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.logo::first-letter {
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.navigation {}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 34px;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
+
