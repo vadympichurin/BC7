@@ -10,6 +10,7 @@
     display: inline-block;
     width: 418px;
     margin-right: 60px;
+    margin-bottom: 135px;
 }
 
 .template-img {
@@ -39,7 +40,7 @@
     font-size: 14px;
     font-weight: 400;
     color: #626262;
-    margin-bottom: 135px;
+    /*margin-bottom: 135px;*/
 
 }
 
@@ -47,13 +48,18 @@
     margin-right: 0;
 }
 
-/*last part of page, 5 and 6 cards*/
-.text-last {
-    font-family: 'Playfair Display', serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #626262;
+.card:nth-child(1n+5) {
+    margin-bottom: 0;
 }
+
+/*last part of page, 5 and 6 cards*/
+/*.text-last {*/
+    /*font-family: 'Playfair Display', serif;*/
+    /*font-size: 14px;*/
+    /*font-weight: 400;*/
+    /*!*color: #626262;*!*/
+/*}*/
+
 
 /*button style*/
 .for_button {
