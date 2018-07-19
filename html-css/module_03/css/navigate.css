@@ -25,6 +25,10 @@
     margin-right: 100px;
 }
 
+.nav_item:hover {
+    color: #03a9f4;
+}
+
 .nav_item:last-child {
     margin-right: 0;
 }

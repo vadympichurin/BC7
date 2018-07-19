@@ -3,10 +3,10 @@
 .container {
     width: 900px;
     margin: auto;
-
 }
 
 .card {
+    font-family: 'Playfair Display', serif;
     display: inline-block;
     width: 418px;
     margin-right: 60px;
@@ -15,6 +15,7 @@
 
 .template-img {
     width: 418px;
+    margin-bottom: 30px;
 }
 
 .img-text {
@@ -24,11 +25,12 @@
     text-transform: uppercase;
     color: #b4ad9e;
     display: inline-block;
-    margin: 30px 0 30px;
+    /*margin: 30px 0 30px;*/
+    margin-bottom: 30px;
 }
 
 .title {
-    font-family: 'Playfair Display', serif;
+    /*font-family: 'Playfair Display', serif;*/
     font-size: 30px;
     font-weight: 400;
     color: #626262;
@@ -36,43 +38,39 @@
 }
 
 .text {
-    font-family: 'Playfair Display', serif;
+    /*font-family: 'Playfair Display', serif;*/
     font-size: 14px;
     font-weight: 400;
     color: #626262;
-    /*margin-bottom: 135px;*/
-
 }
 
 .card:nth-child(2n+2) {
     margin-right: 0;
 }
 
-.card:nth-child(1n+5) {
-    margin-bottom: 0;
+.card:nth-last-child(-n+2) {
+    margin-bottom: 60px;
 }
 
-/*last part of page, 5 and 6 cards*/
-/*.text-last {*/
-    /*font-family: 'Playfair Display', serif;*/
-    /*font-size: 14px;*/
-    /*font-weight: 400;*/
-    /*!*color: #626262;*!*/
-/*}*/
-
-
 /*button style*/
-.for_button {
+
+.container-btn {
+    width: 900px;
+    margin: auto;
     text-align: center;
 }
 
+/*.for_button {*/
+    /*!*text-align: center;*!*/
+/*}*/
+
 .btn {
-    height: 60px;
-    width: 163px;
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     font-weight: 400;
     color: #626262;
-    margin: 60px 0 70px;
+    /*margin: 60px 0 70px;*/
+    margin-bottom: 70px;
+    padding: 21px 34px;
 }
 
