@@ -1,0 +1,16 @@
+
+@import "reset.css";
+
+/*import fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+
+/*!*!*font-family: 'Roboto', sans-serif;*!              Black = 900*! Semibold=600 Bold=700*/
+/*font-family: 'Open Sans', sans-serif;*/
+
+@import "header.css";
+@import "slider.css";
+@import "collection.css";
+@import "footer.css";
+
