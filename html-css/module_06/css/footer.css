@@ -1,0 +1,55 @@
+
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    line-height: 40px;
+}
+
+.author {
+    color: #f59191;
+}
+
+.your-email {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #cccccc;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+    width: 230px;
+    height: 40px;
+}
+
+.input-email {
+    text-align: left;
+    line-height: 40px;
+}
+
+.btn-submit {
+    height: 40px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    background-color: #95e1d3;
+    font-weight: 600;
+}
+
+.subscribe-email {
+    display: flex;
+    justify-content: flex-end;
+}
+
+

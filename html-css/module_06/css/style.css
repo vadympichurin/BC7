@@ -1,0 +1,16 @@
+
+
+@import "reset.css";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700,900');
+
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Kaushan Script', cursive;*/
+/*font-family: 'Roboto', sans-serif;*/
+
+@import "header.css";
+@import "services.css";
+@import "team.css";
+@import "footer.css";
