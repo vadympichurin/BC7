@@ -1,0 +1,50 @@
+
+
+.wrapper-white {
+    background-color: var(--white-bg-color);
+}
+
+.container {
+    width: 940px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    margin-bottom: 130px;
+}
+
+.logo-link {
+    font-family: "Kaushan Script", cursive;
+    font-size: 2.6rem;
+    color: var(--gold-color);
+}
+
+.menu {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    color: var(--text-black-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    vertical-align: middle;
+    line-height: 75px;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list-item {
+    margin-right: 40px;
+}
+
+.menu-list-item:last-child {
+    margin-right: 0;
+}
+
+.menu-link:hover {
+    color: var(--gold-color);
+}
+

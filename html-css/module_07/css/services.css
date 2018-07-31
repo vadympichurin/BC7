@@ -1,0 +1,68 @@
+
+.main {
+}
+
+.services {
+    text-align: center;
+}
+
+.service-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--text-black-color);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.text-main {
+    font-family: "IbmPlexSerif", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--text-grey-color);
+    margin-bottom: 80px;
+}
+
+.cards-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 275px;
+    margin-bottom: 120px;
+}
+
+.card-link {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--gold-color);
+    border-radius: 50%;
+    line-height: 60px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.cards-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--text-black-color);
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-family: "RobotoSlab", serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--text-grey-color);
+}
+
+.icon {
+    font-size: 4rem;
+    color: var(--gold-color);
+    line-height: 70px;
+    vertical-align: middle;
+}

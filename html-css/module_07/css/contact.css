@@ -1,0 +1,94 @@
+
+
+.wrapper-contact {
+    background-color: #222222;
+    background-image: url(../img/map_image.png);
+    background-repeat: no-repeat;
+    background-position: top 120px right 0;
+}
+
+.contacts {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 115px;
+}
+
+.title-contact {
+    color: #ffffff;
+    padding-top: 112px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 305px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 940px;
+    height: 210px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+input[type=text] {
+    width: 455px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+input[type=email] {
+    width: 455px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+textarea {
+    width: 455px;
+    height: 210px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+input[type=submit] {
+    background-color: var(--gold-color);
+    width: 240px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.users-info:valid {
+    outline: #008000;
+}
+
+.users-info:invalid {
+    outline: #ff0000;
+}
