@@ -1,0 +1,134 @@
+
+
+.main {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 56px;
+}
+
+.wrapper-white {
+    background-color: #fff;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.375rem;
+    color: #333333;
+    text-align: center;
+    padding-top: 4.375rem;
+    margin-bottom: 1.25rem;
+}
+
+.user-card {
+    position: relative;
+    margin-bottom: 1.875rem;
+}
+
+.user-box {
+    position: relative;
+    width: 120px;
+    margin: auto;
+    margin-bottom: 1.375rem;
+}
+
+.user-foto {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-box {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #ffffff;
+    background-color: #ff4e50;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.icon {
+    color: #ffffff;
+}
+
+.user-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-bottom: 1.25rem;
+}
+
+.user-info {
+    font-family:'Roboto', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #666666;
+}
+
+.orange {
+    background-color: #ffa507;
+}
+
+.green {
+    background-color: #1cd7ad;
+}
+
+.blue {
+    background-color: #4e73db;
+}
+
+.user-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+    background-color: #fff;
+    padding: 0.875rem 4.563rem;
+    border-radius: 3rem;
+}
+
+@media (min-width: 768px) {
+/*and (max-width: 768px) */
+
+    .main {
+        padding-bottom: 40px;
+    }
+
+    .title {
+        margin-bottom: 2.313rem;
+    }
+
+    .user-card {
+        width: 13.44rem;
+    }
+
+    .user-card-box {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 480px;
+        margin: auto;
+        justify-content: space-between;
+        margin-bottom: 2.5rem;
+    }
+
+    .user-btn {
+        padding: 0.875rem 1.875rem;
+    }
+}
+
+@media (min-width: 769px) {
+
+    .user-card-box {
+        max-width: 940px;
+    }
+
+    .main {
+        padding-bottom: 4.563rem;
+    }
+}
+
