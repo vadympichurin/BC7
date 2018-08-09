@@ -1,0 +1,15 @@
+
+@import "fonts.css";
+@import "header.css";
+@import "services.css";
+@import "team.css";
+@import "footer.css";
+
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

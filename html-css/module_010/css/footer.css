@@ -1,0 +1,50 @@
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    line-height: 40px;
+}
+
+.footer__author {
+    color: #f59191;
+}
+
+.form__inputs {
+    font-size: 0;
+}
+
+.form__email {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #cccccc;
+    font-size: 14px;
+    padding-left: 13px;
+    border: 1px solid #e7e7e7;
+    height: 40px;
+    width: 230px;
+}
+
+.form__submit {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    background-color: #95e1d3;
+    font-weight: 600;
+    height: 42px;
+    width: 150px;
+}

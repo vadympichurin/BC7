@@ -1,0 +1,155 @@
+
+.team {
+    text-align: center;
+    padding-bottom: 86px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.team__pre-title {
+    font-family: 'KaushanScript', cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 22px;
+}
+
+.team__title {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.875rem;
+    margin-bottom: 66px;
+}
+
+.team__title::after {
+    content: '';
+    display: block;
+    background-color: #f38181;
+    height: 3px;
+    width: 60px;
+    margin: auto;
+    margin-top: 43px;
+}
+
+.team__description {
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #999999;
+    margin-bottom: 96px;
+}
+
+.team__containerCards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.containerCards__teamCard {
+    width: 380px;
+    font-size: 0;
+    position: relative;
+}
+
+.teamCard__hiddenBox {
+    width: 380px;
+    height: 470px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.teamCard__Photo {
+    margin-bottom: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+.teamCard__hidden {
+    width: 380px;
+    height: 470px;
+    vertical-align: middle;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(243, 129, 129, 0.8)), to(rgba(252, 227, 138, 0.8)));
+    background: -webkit-linear-gradient(rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
+    background: -o-linear-gradient(rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
+    background: linear-gradient(rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
+    opacity: 0;
+}
+
+.teamCard__hiddenBox:hover > .teamCard__Photo{
+    -webkit-transition: 200ms linear 0s;
+    -o-transition: 200ms linear 0s;
+    transition: 200ms linear 0s;
+    -webkit-box-shadow: 10px 10px 0 0 rgba(149, 225, 211, 1);
+    box-shadow: 10px 10px 0 0 rgba(149, 225, 211, 1);
+    -webkit-transform: translate(-10px, -10px);
+    -ms-transform: translate(-10px, -10px);
+    transform: translate(-10px, -10px);
+}
+
+.teamCard__hiddenBox:hover > .teamCard__hidden {
+    -webkit-transition: 200ms linear 0s;
+    -o-transition: 200ms linear 0s;
+    transition: 200ms linear 0s;
+    opacity: 1;
+    -webkit-transform: translate(-10px, -10px);
+    -ms-transform: translate(-10px, -10px);
+    transform: translate(-10px, -10px);
+}
+
+.teamCard__name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.teamCard__prof {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #999999;
+    font-style: italic;
+}
+
+.teamCard__btn {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border: none;
+    margin-right: 2px;
+    position: relative;
+    background-color: #fce38a;
+    margin-top: 208px;
+}
+
+
+.teamCard__social {
+    fill: #f38181;
+    width: 32px;
+    height: 32px;
+    vertical-align: top;
+    padding: 15px;
+}
+
+.teamCard__social:hover {
+    fill: #ffffff;
+}
+
+.teamCard__btn:hover {
+    background-color: #95e1d3;
+    -webkit-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+}
