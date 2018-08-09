@@ -1,0 +1,69 @@
+
+.main {
+  padding-top: 50px;
+}
+
+.services {
+  color: $color-text-light;
+  text-align: center;
+
+  &__pre-title {
+    @extend %Kaushan-regular;
+    @include section-fonts(none, 24);
+    color: $color-text-black;
+    margin-bottom: 22px;
+  }
+
+  &__title {
+    @extend %Montserrat-bold;
+    @include section-fonts(uppercase, 30);
+    color: $color-text-black;
+    margin-bottom: 66px;
+
+    &::after {
+      content: '';
+      display: block;
+      color: $color-title-after;
+      height: 3px;
+      width: 60px;
+      margin: auto;
+      margin-top: 43px;
+    }
+  }
+
+  &__container {
+    @include flex(row, space-between);
+    flex-wrap: wrap;
+  }
+}
+
+.card {
+  margin-bottom: 100px;
+  width: 340px;
+  @include flex(row, none);
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    fill: $color-icon-services;
+  }
+
+  &__descriptionBox {
+    width: 280px;
+    text-align: left;
+  }
+
+  &__title {
+    @extend %Montserrat-regular;
+    @include section-fonts(uppercase, 14);
+    color: $color-text-black;
+    margin-bottom: 22px;
+  }
+
+  &__description {
+    @extend %Roboto-regular;
+    @include section-fonts(none, 14);
+    color: $color-text-grey;
+  }
+}

@@ -1,0 +1,122 @@
+
+.team {
+  text-align: center;
+  padding-bottom: 86px;
+  border-bottom: 1px solid #e5e5e5;
+
+  &__pre-title {
+    @extend %Kaushan-regular;
+    @include section-fonts(none, 24);
+    color: $color-text-black;
+    margin-bottom: 22px;
+  }
+
+  &__title {
+    @extend %Montserrat-bold;
+    @include section-fonts(uppercase, 30);
+    margin-bottom: 66px;
+
+    &::after {
+      content: '';
+      display: block;
+      background-color: $color-social;
+      height: 3px;
+      width: 60px;
+      margin: auto;
+      margin-top: 43px;
+    }
+  }
+
+  &__description {
+    @extend %Roboto-regular;
+    @include section-fonts(none, 14);
+    color: $color-text-grey;
+    margin-bottom: 96px;
+  }
+
+  &__containerCards {
+    @include flex(row, space-between);
+  }
+}
+
+.teamCard {
+  width: 380px;
+  font-size: 0;
+  position: relative;
+
+  &__hiddenBox {
+    width: 380px;
+    height: 470px;
+    position: relative;
+    margin-bottom: 30px;
+
+    &:hover > .teamCard__Photo {
+      transition: 200ms linear 0s;
+      box-shadow: 10px 10px 0 0 rgba(149, 225, 211, 1);
+      transform: translate(-10px, -10px);
+    }
+
+    &:hover > .teamCard__hidden {
+      transition: 200ms linear 0s;
+      opacity: 1;
+      transform: translate(-10px, -10px);
+    }
+  }
+
+  &__Photo {
+    margin-bottom: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  &__hidden {
+    width: 380px;
+    height: 470px;
+    vertical-align: middle;
+    background: linear-gradient(rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
+    opacity: 0;
+  }
+
+  &__name {
+    @extend %Montserrat-regular;
+    @include section-fonts(uppercase, 14);
+    color: $color-text-black;
+  }
+
+  &__prof {
+    @extend %Roboto-light-Italic;
+    @include section-fonts(none, 15);
+    color: $color-text-grey;
+  }
+
+  &__btn {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border: none;
+    margin-right: 2px;
+    position: relative;
+    background-color: $color-social-btn;
+    margin-top: 208px;
+
+    &:hover {
+      background-color: $color-icon-services;
+      transition: 200ms;
+    }
+  }
+
+  &__social {
+    fill: $color-social;
+    width: 32px;
+    height: 32px;
+    vertical-align: top;
+    padding: 15px;
+
+    &:hover {
+      fill: $color-text-light;
+    }
+  }
+}

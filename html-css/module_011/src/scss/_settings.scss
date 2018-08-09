@@ -1,0 +1,69 @@
+
+%Montserrat-regular {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+%Montserrat-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+%Kaushan-regular {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+%Roboto-regular {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+%Roboto-light-Italic {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+$color-text-light: #ffffff;
+
+$color-hover: #fce38a;
+
+$color-text-black: #333333;
+
+$color-text-grey: #999999;
+
+$color-icon-services: #95e1d3;
+
+$color-title-after: #f38181;
+
+$color-social: #f38181;
+
+$color-social-btn: #fce38a;
+
+@mixin flex($flex-dir, $just-cont) {
+  display: flex;
+  flex-direction: $flex-dir;
+  justify-content: $just-cont;
+}
+
+@mixin header-font($t-trans, $fsz) {
+  color: #ffffff;
+  text-transform: $t-trans;
+  font-size: ($fsz / 16) + rem;
+}
+
+@mixin section-fonts ($t-trans, $fsz) {
+  text-transform: $t-trans;
+  font-size: ($fsz / 16) + rem;
+}
+
+//@mixin section-pertitle ($t-trans, $fsz) {
+//  color: #000;
+//  text-transform: $t-trans;
+//  font-size: ($fsz / 16) + rem;
+//}

@@ -1,0 +1,41 @@
+
+.footer {
+  @extend %Montserrat-regular;
+  color: $color-text-black;
+  @include section-fonts(none, 14);
+  padding-bottom: 12px;
+  padding-top: 12px;
+  @include flex(row, space-between);
+
+  &__copyright {
+    line-height: 40px;
+  }
+
+  &__author {
+    color: #f59191;
+  }
+}
+
+.form {
+  font-size: 0;
+
+  &__email {
+    @extend %Roboto-light-Italic;
+    color: #cccccc;
+    @include section-fonts(none, 14);
+    padding-left: 13px;
+    border: 1px solid #e7e7e7;
+    height: 40px;
+    width: 230px;
+  }
+
+  &__submit {
+    @extend %Montserrat-bold;
+    @include section-fonts(uppercase, 14);
+    border: none;
+    background-color: $color-icon-services;
+    height: 42px;
+    width: 150px;
+    color: $color-text-light;
+  }
+}
