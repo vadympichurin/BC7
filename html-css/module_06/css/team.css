@@ -90,9 +90,9 @@
     transform: translate(-50%, -50%);
 }
 
-.btn-social:last-child {
-    margin-right: 0;
-}
+/*.btn-social:last-child {*/
+    /*margin-right: 0;*/
+/*}*/
 
 .btn-link:hover {
     background-color: #95e1d3;

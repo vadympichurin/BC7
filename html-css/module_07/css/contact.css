@@ -86,9 +86,9 @@ input[type=submit] {
 }
 
 .users-info:valid {
-    outline: #008000;
+    outline: #008000 2px solid;
 }
 
 .users-info:invalid {
-    outline: #ff0000;
+    outline: #ff0000 2px solid;
 }

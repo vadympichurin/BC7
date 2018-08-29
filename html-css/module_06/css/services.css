@@ -20,6 +20,8 @@
     margin-bottom: 65px;
 }
 
+
+
 .title::after {
     content: '';
     display: block;
