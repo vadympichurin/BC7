@@ -69,7 +69,7 @@ const addLogin = function (login) {
 };
 //
 // // Вызовы функции для проверки
-// addLogin('Ajax'); // 'Логин успешно добавлен!'
-// addLogin('robotGoogles'); // 'Такой логин уже используется!'
-// addLogin('Zod'); // 'Ошибка! Логин должен быть от 4 до 16 символов'
-// addLogin('jqueryisextremelyfast'); // 'Ошибка! Логин должен быть от 4 до 16 символов'
+addLogin('Ajax'); // 'Логин успешно добавлен!'
+addLogin('robotGoogles'); // 'Такой логин уже используется!'
+addLogin('Zod'); // 'Ошибка! Логин должен быть от 4 до 16 символов'
+addLogin('jqueryisextremelyfast'); // 'Ошибка! Логин должен быть от 4 до 16 символов'
