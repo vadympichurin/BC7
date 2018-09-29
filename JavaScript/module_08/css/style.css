@@ -1,0 +1,30 @@
+
+.big-img {
+    width: 1280px;
+    height: auto;
+    margin: 10px;
+}
+
+.items {
+    /*display: block;*/
+    list-style: none;
+    width: 320px;
+    height: auto;
+    margin: 5px;
+}
+
+.small-img {
+    /*display: block;*/
+    /*display: flex;*/
+    border: 3px solid transparent;
+    width: 200px;
+}
+
+.red {
+    border: 3px solid red;
+}
+
+.preview {
+    display: flex;
+    width: 1280px;
+}

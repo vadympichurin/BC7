@@ -1,0 +1,47 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.form {
+    min-width: 20%;
+    box-shadow: inset 0 0 5px 3px rgba(0,0,0,0.43);
+    padding: 10px;
+}
+
+.cards {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 20px; */
+
+}
+
+.card {
+    padding: 15px;
+    margin: 0 5px 5px 0;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid darkgreen;
+}
+
+.photo {
+    display: block;
+    width: 90%;
+    height: 150px;
+
+}
+
+.about {
+    text-align: center;
+}
+
+.color, .price, .data, .size {
+    display: block;
+}
